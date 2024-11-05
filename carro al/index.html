@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promoções de Viagens - Turismo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Menu e Logo -->
+  <header class="menu-fixo">
+    <img src="/img/landscape-format,-transparent-background,-shadow-designify.png" alt="Logo Turismo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="/">Início</a></li>
+        <li><a href="#pacotes">Promoções</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Animado -->
+  <section class="banner" id="home">
+    <div class="banner-content">
+      <h1>Descubra Destinos Incríveis</h1>
+      <p>Confira nossas promoções exclusivas de viagens!</p>
+    </div>
+  </section>
+
+  <!-- Seção de Pacotes Promocionais com Cards -->
+  <section class="pacotes" id="pacotes">
+    <h2>Pacotes Promocionais</h2>
+    <div class="cards-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0003.jpg" alt="Pacote Ferias">
+        <h3>Pacote Férias</h3>
+        <p>Transporte, Hospedagem, Café da Manhã e um leve jantar!</p>
+        <p class="preco">R$ 350,00</p>
+        <button onclick="contatoWhatsApp('Olá! Gostaria de saber mais sobre o Pacote Férias por R$ 350,00. Como posso fazer para adquirir?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0006.jpg" alt="Pacote Guarapari - 3 Dias">
+        <h3>Pacote Guarapari (3 Dias)</h3>
+        <p>Explore as belezas de Guarapari por 3 dias.</p>
+        <p class="preco">R$ 480,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou interessado no Pacote Guarapari de 3 dias por R$ 480,00. Quais são os detalhes?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0008.jpg" alt="Pacote Guarapari - 9 Dias">
+        <h3>Pacote Guarapari (9 Dias)</h3>
+        <p>Uma experiência única em Guarapari por 9 dias.</p>
+        <p class="preco">R$ 1260,00</p>
+        <button onclick="contatoWhatsApp('Olá! Queria saber mais sobre o Pacote Guarapari de 9 dias que custa R$ 1260,00. Poderia me ajudar?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0009.jpg" alt="Pacote Guarapari - 4 Dias">
+        <h3>Pacote Guarapari (4 Dias)</h3>
+        <p>Descubra Guarapari em 4 dias incríveis.</p>
+        <p class="preco">R$ 580,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou interessado no Pacote Guarapari de 4 dias por R$ 580,00. Quais informações você pode me passar?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0010.jpg" alt="Pacote Fim de Semana">
+        <h3>Pacote Fim de Semana</h3>
+        <p>Um fim de semana explorando as belezas de Guarapari!</p>
+        <p class="preco">R$ 350,00</p>
+        <button onclick="contatoWhatsApp('Olá! Gostaria de informações sobre o Pacote de Fim de Semana por R$ 350,00.')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0011.jpg" alt="Pacote 16 Dias">
+        <h3>Pacote 16 Dias</h3>
+        <p>Uma aventura de 16 dias em Guarapari!</p>
+        <p class="preco">R$ 2.300,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou curioso sobre o Pacote de 16 Dias por R$ 2.300,00. Poderia me fornecer mais detalhes?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 7 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0012.jpg" alt="Pacote Carnaval">
+        <h3>Pacote Carnaval</h3>
+        <p>Venha viver o Carnaval em Guarapari!</p>
+        <p class="preco">R$ 850,00</p>
+        <button onclick="contatoWhatsApp('Olá! Gostaria de informações sobre o Pacote Carnaval por R$ 850,00.')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 8 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0013.jpg" alt="Semana Santa">
+        <h3>Semana Santa</h3>
+        <p>Uma celebração única em Guarapari durante a Semana Santa.</p>
+        <p class="preco">R$ 630,00</p>
+        <button onclick="contatoWhatsApp('Oi! Quero saber mais sobre o Pacote da Semana Santa por R$ 630,00.')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 9 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0014.jpg" alt="Pacote Março">
+        <h3>Pacote Março</h3>
+        <p>Transporte, Hospedagem, Café da Manhã e Jantar Leve!</p>
+        <p class="preco">R$ 350,00</p>
+        <button onclick="contatoWhatsApp('Olá! Poderia me dar mais informações sobre o Pacote de Março por R$ 350,00?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 10 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0015.jpg" alt="Pacote Fim de Semana">
+        <h3>Pacote Fim de Semana</h3>
+        <p>4 Dias em Guarapari para relaxar e aproveitar!</p>
+        <p class="preco">R$ 580,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou interessado no Pacote de Fim de Semana de 4 Dias por R$ 580,00.')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 11 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0016.jpg" alt="Férias Julho">
+        <h3>Férias Julho</h3>
+        <p>Venha para Guarapari nas férias de julho!</p>
+        <p class="preco">R$ 370,00</p>
+        <button onclick="contatoWhatsApp('Olá! Queria mais detalhes sobre o Pacote de Férias em Julho por R$ 370,00.')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 12 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0017.jpg" alt="Fim de Semana Abril">
+        <h3>Fim de Semana</h3>
+        <p>Fim de semana em Guarapari em abril, imperdível!</p>
+        <p class="preco">R$ 350,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou interessado no Pacote de Fim de Semana em Abril por R$ 350,00. Como posso proceder?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 13 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0018.jpg" alt="Pacote Dia do Trabalhador">
+        <h3>Dia do Trabalhador</h3>
+        <p>Feriado do Dia do Trabalhador em Guarapari!</p>
+        <p class="preco">R$ 350,00</p>
+        <button onclick="contatoWhatsApp('Olá! Poderia me informar mais sobre o Pacote do Dia do Trabalhador por R$ 350,00?')">Falar no WhatsApp</button>
+      </div>
+      <!-- Card 14 -->
+      <div class="card">
+        <img src="/img/IMG-20241104-WA0019.jpg" alt="Pacote Família">
+        <h3>Pacote Família</h3>
+        <p>Pacote ideal para viagens em família!</p>
+        <p class="preco">R$ 640,00</p>
+        <button onclick="contatoWhatsApp('Oi! Estou curioso sobre o Pacote Família por R$ 640,00. Você pode me ajudar?')">Falar no WhatsApp</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+  <section class="contato" id="contato">
+    <h2>Entre em Contato Conosco</h2>
+    <form action="#">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Turismo. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
